@@ -7,7 +7,9 @@ class Frontend
         $result_search = array();
 
         if (! $items) {
-            echo 'Json error: ' . json_last_error();
+            #for debug mode
+            //echo 'Json error: ' . json_last_error();
+            echo 'Some error';
         } else {
             $request = $_GET;
 
