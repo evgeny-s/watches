@@ -1,0 +1,50 @@
+body {
+    font-family: "Arial", "Courier New", "Verdana";
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    margin: 30px auto;
+    width: 870px;
+}
+
+.wrapper > div:first-child {
+    width: 290px;
+}
+
+.wrapper > div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+.items_wrapper .head > div {
+    display: inline-block;
+    font-weight: bold;
+    width: 180px;
+    padding: 15px 2px;
+}
+
+.body_item > div {
+    display: inline-block;
+    text-align: left;
+    width: 170px;
+    margin: 15px 0;
+}
+
+.items_wrapper .body > div:nth-child(odd) {
+    background-color: #eee;
+}
+
+.items_wrapper .body {
+    height: 540px;
+    overflow: auto;
+}
+
+.items_wrapper .head {
+    background-color: grey;
+}
+
+.margin_block {
+    margin-top: 15px;
+}
